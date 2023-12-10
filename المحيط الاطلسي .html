@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+    
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 255, 255);
+    font-family: "Tajawal", sans-serif;
+    
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./ishan-seefromthesky-eWSh-bkaKU8-unsplash\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+}
+
+nav .nav-items {
+    list-style-type: none;
+    display: flex;
+}
+
+nav .nav-items .nav-item {
+ padding-left: 2rem;
+
+}
+.nav-item .nav-link {
+    text-decoration:none;
+    color: aliceblue;
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(54, 83, 109);
+}
+
+
+.home {
+text-align: center;
+
+
+}
+.home h1 {
+   font-size: 160px;
+   color: #fff;
+   font-weight: 600;
+   width: 100%;
+   height:30vh;
+   
+   justify-content: center;
+ 
+}
+.home p {
+    margin: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    background: var(--main-color);
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px ; 
+    transition: all .50s ease; 
+    cursor: pointer;  
+}
+.btn:hover {
+    transform: translateX(10px);
+    border: 2px solid var(--text-color);
+    background: transparent;
+    color: #fff;
+    
+}
+
+.oceans {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: rgb(4, 4, 4);
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.oceans-col {
+    flex-basis: 31%;
+    background: #64a3a3;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.oceans-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 2);
+}
+
+.oceans-col .oceans-link {
+    text-decoration:none;
+    color: aliceblue;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+.pacific  {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+    
+
+}
+.pacific-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pacific-col img {
+    width: 100%;
+}
+.pacific h1{
+    font-size: 36px;
+    font-weight: 600;
+    float: right;
+}
+.atlantic {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.atlantic-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.atlantic-col img {
+    width: 100%;
+}
+.atlantic h1{
+    font-size: 36px;
+    font-weight: 600;
+    float: right;
+}
+
+.indian {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.indian-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.indian-col img {
+    width: 100%;
+}
+.indian h1{
+    font-size: 36px;
+    font-weight: 600;
+    float: right;
+}
+
+.southern {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.southern-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.southern-col img {
+    width: 100%;
+}
+.southern h1{
+    font-size: 36px;
+    font-weight: 600;
+    float: right;
+}
+
+.arctic {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.arctic-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.arctic-col img {
+    width: 100%;
+}
+.arctic h1{
+    font-size: 36px;
+    font-weight: 600;
+    float: right;
+}
+
+
+
+
+.back-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #2980b9;
+    }
+
+
+
+
+</style>
+<body>
+  
+
+
+
+<section class="atlantic">
+    <h1>المحيط الاطلسي </h1>
+    <br>
+    <br>
+    <p> - ثاني أكبر محيط في العالم.</p>
+    <p>  - يقع بين القارات الأمريكية وأوروبا وإفريقيا.</p>
+    <p>- المحيط الأطلسي هو ثاني أكبر محيط في العالم، حيث يغطي مساحة تقدر بنحو 41 مليون ميل مربع (106 مليون كيلومتر مربع).</p>
+    <p>- يفصل بين القارتين الأمريكيتين من الغرب، وأوروبا وأفريقيا من الشرق.</p>
+    <p>- يلعب المحيط الأطلسي دورًا هامًا في أنماط الطقس العالمي ويعمل كناقل رئيسي للحرارة بين خط الاستواء والمناطق القطبية.</p>
+    <p>- يحتوي على عدة ميزات هامة، منها الظهر الوسطي الأطلسي، وهو سلسلة جبلية تمتد على طول مركزه، وبحر السارغاسو، المعروف بوجود طحالب السارجاسو العائمة.</p>
+    <p>- التيار الخليجي، الذي هو تيار دافئ في المحيط الأطلسي، يتدفق من خليج المكسيك إلى الشمال الأطلسي ويؤثر على المناخ والنظم البحرية.</p>
+    <p>- كان المحيط الأطلسي مسارًا هامًا للتجارة البحرية والاستكشاف خلال التاريخ.</p>
+
+
+    <div class="row">
+        <div class="atlantic-col">
+            <img src="https://i.imgur.com/xcB8e88.jpg">
+        </div>
+    </div>
+</section>
+
+<div style="text-align: center;">
+    <a href="الأطلسي.html" style="display: inline-block; padding: 10px 20px; background-color: #3498db; color: #fff; text-decoration: none; border-radius: 5px; font-size: 18px;">
+      اقرأ أكثر
+    </a>
+</div>
+
+<a href="oceans.html" class="back-button">رجوع</a>
+
+</body>
+</html>
